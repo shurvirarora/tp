@@ -423,7 +423,7 @@ Find contacts whose attributed tags meet the given keywords.
 * The search is case-insensitive. e.g `colleague` will match `Colleague`
 * Only tags are included in the search, other fields are ignored.
 
-Format: `tag <TAG> [MORE_TAGS]`
+Format: `tag TAG [MORE_TAGS]`
 
 > :bulb: **TIP** Attaching tags to a contact are a way to attach your own meaning to the contact, e.g. Adding the `CS2103T` tag to your professor's contact.
 
@@ -488,7 +488,7 @@ Examples:
 
 Copies a contact's email address to your clipboard by index
 
-* Copies the email address of the contact at the specified `<index>`.
+* Copies the email address of the contact at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
 * The index **must be a positive integer** 1, 2, 3, …​
 
@@ -504,7 +504,7 @@ Examples
 
 Copies a contact's phone number to your clipboard by index
 
-* Copies the phone number of the contact at the specified `<index>`.
+* Copies the phone number of the contact at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
 * The index **must be a positive integer** 1, 2, 3, …​
 
@@ -579,7 +579,7 @@ The following commands are used in dealing with finding contacts.
 |---------------------------------------------|-------------------------------------|
 | **Find contact(s) matching ALL keywords**   | `find KEYWORD [MORE_KEYWORDS]`      |
 | **Find contact(s) matching ANY keywords**   | `find-wide KEYWORD [MORE_KEYWORDS]` |
-| **Find contact(s) by tags**                 | `tag TAG`                           |
+| **Find contact(s) by tags**                 | `tag TAG [MORE_TAGS]`               |
 
 > :spiral_notepad: **NOTE:** KEYWORD refers to either NAME, ROLE or FACULTY
 
